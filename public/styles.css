@@ -129,43 +129,41 @@ header .hero-background {
 */
 }
 
-header .hero-text {
+header .center-container {
   position: absolute;
-  top: 160px;
+  width: 600px;
+  height: 500px;
+  margin-left: -300px;
+  margin-top: -250px;
+  top: 50%;
   left: 50%;
-  width: 240px;
-  margin-left: -120px;
-    text-transform: uppercase;
-    text-align: center;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-header .hero-text h1 {
+header .badge {
+  width: 380px;
+  height: 280px;
+  padding: 110px;
+  background: transparent url('/hipsterlogo2.png') no-repeat scroll top center;
+}
+
+header .badge h1 {
   font-weight: bold;
   font-size: 2em;
   line-height: 2.5em;
   color: #333;
 }
 
-header .hero-text div {
-  margin: 1em auto;
-  width: 60%;
+header .badge-text {
   color: #FFF;
-}
-
-header .hero-text hr {
-
-}
-
-header .hero-hipster {
-  position: absolute;
-  top: 50px;
-  left: 50%;
-  margin-left: -300px;
+  margin: 1em auto;
+  width: 40%;
 }
 
 header .tell-me-more {
   position: absolute;
-  top: 530px;
+  top: 450px;
   left: 50%;
   width: 200px;
   margin-left: -130px;
@@ -180,7 +178,6 @@ header .tell-me-more {
 section#ideas {
   background: #4eb980;
 }
-
 
 section#teams li {
   width: 220px;
