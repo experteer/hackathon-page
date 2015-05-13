@@ -189,6 +189,11 @@ section#ideas {
   background: #4eb980;
 }
 
+section#ideas a {
+  color: #FFF;
+  opacity: 0.6;
+}
+
 section#teams li {
   width: 220px;
   padding: 35px;
