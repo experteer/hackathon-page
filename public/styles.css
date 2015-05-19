@@ -206,8 +206,9 @@ section#teams li {
 }
 
 section#teams img {
-  width: 50px;
-  padding: 10px;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
   border-radius: 100px;
 }
 
