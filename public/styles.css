@@ -205,6 +205,17 @@ section#teams li {
   text-align: center;
 }
 
+#not-in-team {
+  height: 600px;
+}
+
+#not-in-team li.team {
+  width: 450px;
+  padding: 10px;
+  float:left;
+  border: none;
+}
+
 section#teams img {
   width: 60px;
   height: 60px;
